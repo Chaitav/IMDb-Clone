@@ -21,7 +21,7 @@ export const Card: React.FC<{ result: any }> = ({ result }) => {
         />
         <div className="p-2">
           <p className="line-clamp-2">{result.overview}</p>
-          <h2 className="truncate text-lg fort-bold">
+          <h2 className="truncate text-lg font-bold">
             {result.title || result.name}
           </h2>
           <p className="flex items-center">
